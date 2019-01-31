@@ -24,13 +24,13 @@ _Note: Not all pin-outs seem to be listed in the User Manual, double-checking in
 | Function       | F3   | F4   | F411 |
 | ---            | ---  | ---  | ---  |
 | PPM Receiver   | PB8  | PB9  | PB8  |
-| Motor 1        | PA8  | PB1  | PD12 |
-| Motor 2        | PC6  | PB0  | PB1  |
-| Motor 3        | PC7  | PA2  | PB0  |
-| Motor 4        | PC8  | PA3  | PA2  |
-| Motor 5        | /    | PA10 | PA3  |
-| Motor 6        | /    | PA8  | PA10 |
-| Beeper         | PD12 | /    | PA8  |
+| Motor 1        | PA8  | PB1  | PB1  |
+| Motor 2        | PC6  | PB0  | PB0  |
+| Motor 3        | PC7  | PA2  | PA2  |
+| Motor 4        | PC8  | PA3  | PA3  |
+| Motor 5        | /    | PA10 | PA10 |
+| Motor 6        | /    | PA8  | PA8  |
+| Beeper         | PD12 | /    | PD12 |
 | USART1 TX      | PA9  | PB6  | PA15 |
 | USART1 RX      | PA10 | PB7  | PA10 |
 | USART2 TX      | PD5  | PA2  | PA2  |
