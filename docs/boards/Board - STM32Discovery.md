@@ -69,9 +69,9 @@ _Note: `/` means not supported or configured._
 
 ## Example Assembly
 
-As an example of full assembly, [feriCopterV1](https://github.com/Nailim/feriCopterV1) is completely custom built drone as part of a student project. Includes simple 3D printed frame, parts list, assembly and pin connection instructions, providing a great entry-point to anyone who wants to assemble their own little drone cheaply and learn more about how everything works.
+As an example of full assembly, [feriCopterV1](https://github.com/Nailim/feriCopterV1) is completely custom built drone as part of a student project. Includes a 3D printable frame, parts list, assembly and pin connection instructions, providing a great entry-point to anyone who wants to assemble their own little drone cheaply and learn more about how everything works.
 
-It is based on `STM32F3DISCOVERY` target, required changes in Configurator are noted below. Also refer to [Target Pins](#pins) table for other Discovery boards. Additional non-pin changes are noted below.
+It is based on `STM32F3DISCOVERY` target, but also supports `STM32F411DISCOVERY` (modified F3 model). Required changes in Configurator are noted below. Also refer to [Target Pins](#pins) table for other Discovery boards. Additional non-pin changes are noted below.
 
 **Configurator:**
 
@@ -83,4 +83,4 @@ It is based on `STM32F3DISCOVERY` target, required changes in Configurator are n
 ### F411 Changes
 
 - Inversed Front/Back (Front is Back and Back is Front).
-- Frame requires minor incision to fit different jumper location.
+- Frame has a moved hole to fit different jumper location.
